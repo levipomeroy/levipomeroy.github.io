@@ -1,0 +1,238 @@
+/*****************************************/
+/*main setup*/
+body {
+    font-family: 'Century Gothic';
+    background-color: #222222;
+    color: white;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.Main {
+    background-color: #343434;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 281px;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 110%;
+    height: 2000px;
+}
+
+.InnerMain {
+    margin: 0px;
+}
+
+h1 {
+    margin: 8px;
+    text-decoration: none;
+}
+
+/*****************************************/
+/*Toolbar*/
+#ToolBar {
+    background-color: #343434;
+    height: 30px;
+    margin: 8px;
+    border-radius: 3px;
+}
+
+#ButtonsList {
+    padding: 5px;
+    list-style-type: none;
+    border-radius: 3px;
+    margin: 8px;
+    text-align: center;
+}
+
+    #ButtonsList li {
+        display: inline;
+        color: white;
+    }
+
+        #ButtonsList li a {
+            text-decoration: none;
+            padding: .2em 1em;
+            color: white;
+            font-size: 110%;
+        }
+
+            #ButtonsList li a:hover {
+                background-color: white;
+                color: #343434;
+            }
+
+/*****************************************/
+/*Profile*/
+#SideBar {
+    background-color: #343434;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 3px;
+    padding: 20px;
+    float: left;
+    width: 225px;
+    height: 2000px;
+}
+
+#ProfilePic {
+    border-radius: 50%;
+    padding: 0px;
+    width: 225px;
+    height: 225px;
+}
+
+.ProfileTxt {
+    font-size: 150%;
+    text-align: center;
+}
+
+.ContactInfo {
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.SocialPic {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#SocialSection {
+    text-align: center;
+    align-content: center;
+    margin: 8px;
+}
+
+/*****************************************/
+/*Skills*/
+.SkillBox {
+    background-color: #535353;
+    margin: 8px;
+    border-radius: 3px;
+    width: 135px;
+    height: 150px;
+    float: left;
+    opacity: 1.0;
+    object-fit: scale-down;
+}
+
+.SkillPic {
+    margin: 20px;
+    border-radius: 3px;
+    width: 70%;
+    height: 70%;
+    opacity: 1.0;
+    align-content: center;
+    vertical-align: central;
+}
+
+.SkillBox:hover {
+    opacity: .4;
+}
+
+/*****************************************/
+/*Experience*/
+.ExperienceBox {
+    background-color: #535353;
+    margin: 8px;
+    text-align: center;
+    width: 435px;
+    height: 130px;
+    opacity: 1.0;
+    float: left;
+}
+
+    .ExperienceBox:hover {
+        opacity: .4;
+    }
+
+.ExperiencePic {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.InnerExperienceText {
+    float: left;
+    width: 60%;
+    height: auto;
+    position: relative;
+}
+
+.VerticalCenterFrame {
+    float: left;
+    margin: 8px;
+    height: 100%; /*can be anything*/
+    width: 33%; /*can be anything*/
+    position: relative;
+}
+
+/*****************************************/
+/*Projects*/
+.ProjectBox {
+    background-color: #535353;
+    margin: 8px;
+    width: 435px;
+    height: 4px; /*400*/
+    opacity: 1.0;
+    float: left;
+}
+
+/*****************************************/
+/*Education*/
+.EducationBox {
+    background-color: #535353;
+    margin: 8px;
+    width: 885px;
+    height: 120px;
+}
+
+#OITEducationPic {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.InnerEducationText {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+#EPEducationPic {
+    margin-left: 0px;
+    margin-right: 8px;
+    margin-top: 0px;
+    width: 20%;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+
+/*****************************************/
+/*Courses*/
+.CourseBox {
+    float: left;
+    width: 285px;
+    height: 60px;
+    margin: 8px;
+    text-align: center;
+    background-color: #535353;
+}
