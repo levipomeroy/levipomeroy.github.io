@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
-    <link href="/Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css" />
     <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
-        <!-- Top tool bar -->
+        <!--Top tool bar-->
         <div id="ToolBar">
             <ul id="ButtonsList">
                 <li><a href="c">Home</a></li>
@@ -17,13 +17,26 @@
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Education">Education</a></li>
                 <li><a href="#Courses">Courses</a></li>
+                <li>
+                    <div class="dropdown">
+                        <p class="ThreeDots">More..</p>
+                        <!--<img class="ThreeDots" src="Images/Dots.png" alt="Drop down menu" />-->
+                        <div class="DropDownContent">
+                            <!--<p>Resume download</p>-->
+                            <a id="ResumeDownload" href="/Documents/Resume.docx">Resume</a> 
+                            <!--<button class="ButtonInDrop">Toggle Theme</button>-->
+                            <button id="ToggleTheme">Toggle Theme</button>
+                            <p>Etc.</p>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
 
         <!--SideBar-->
         <div id="SideBar">
             <!--profile pic-->
-            <img id="ProfilePic" src="/Images/profile.png" alt="Profile picture" />
+            <img id="ProfilePic" src="Images/profile.png" alt="Profile picture" />
             <!--Description-->
             <p class="ProfileTxt">Levi Pomeroy</p>
             <p class="ProfileTxt">Software Engineer</p>
@@ -32,13 +45,13 @@
             <!--Social-->
             <div id="SocialSection">
                 <a href="https://www.linkedin.com/in/levipomeroy/" style="text-decoration:none">
-                    <img class="SocialPic" src="/Images/Linkedin.png" alt="Linkedin" />
+                    <img class="SocialPic" src="Images/Linkedin.png" alt="Linkedin" />
                 </a>
                 <a href="https://app.joinhandshake.com/users/4044194" style="text-decoration:none">
-                    <img class="SocialPic" src="/Images/Handshake.png" alt="Handshake" />
+                    <img class="SocialPic" src="Images/Handshake.png" alt="Handshake" />
                 </a>
                 <a href="https://github.com/levipomeroy" style="text-decoration:none">
-                    <img class="SocialPic" src="/Images/Github.png" alt="Github" />
+                    <img class="SocialPic" src="Images/Github.png" alt="Github" />
                 </a>
             </div>
 
@@ -51,37 +64,41 @@
                 <a name="Skills"></a>
                 <h1>Skills</h1>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/CSharp.png" alt="C#" />
+                    <img class="SkillPic" src="Images/CSharp.png" alt="C#" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/CPlusPlus.png" alt="C++" />
+                    <img class="SkillPic" src="Images/CPlusPlus.png" alt="C++" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/C2.png" alt="C" />
+                    <img class="SkillPic" src="Images/C2.png" alt="C" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/Java.png" alt="Java" />
+                    <img class="SkillPic" src="Images/Java.png" alt="Java" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/SQL.png" alt="SQL" />
+                    <img class="SkillPic" src="Images/SQL.png" alt="SQL" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/Asp.png" alt="ASP.Net" />
+                    <img class="SkillPic" src="Images/Asp.png" alt="ASP.Net" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/Android.png" alt="Android" />
+                    <img class="SkillPic" src="Images/Android.png" alt="Android" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/CSS.png" alt="CSS" />
+                    <img class="SkillPic" src="Images/CSS.png" alt="CSS" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/Html5.png" alt="Html5" />
+                    <img class="SkillPic" src="Images/Html5.png" alt="Html5" />
                 </div>
                 <div class="SkillBox">
-                    <img class="SkillPic" src="/Images/PLSQL.png" alt="PL/SQL" />
+                    <img class="SkillPic" src="Images/PLSQL.png" alt="PL/SQL" />
                 </div>
-                <div class="SkillBox"></div>
-                <div class="SkillBox"></div>
+                <div class="SkillBox">
+                    <img class="SkillPic" src="Images/Linux.png" alt="Linux Enviroment" />
+                </div>
+                <div class="SkillBox">
+                    <img class="SkillPic" src="Images/SourceControl.png" alt="Source Control, TFS/Git" />
+                </div>
             </div>
             <b></b>
             <!--Work Experience-->
@@ -90,7 +107,7 @@
                 <h1>Experience </h1>
                 <div class="ExperienceBox">
                     <div class="VerticalCenterFrame">
-                        <img class="ExperiencePic" src="/Images/usBank.png" alt="U.S. Bank photo" />
+                        <img class="ExperiencePic" src="Images/usBank.png" alt="U.S. Bank photo" />
                     </div>
                     <div class="InnerExperienceText">
                         <p class="ExperienceTitle">Application Developer Intern</p>
@@ -100,7 +117,7 @@
                 </div>
                 <div class="ExperienceBox">
                     <div class="VerticalCenterFrame">
-                        <img class="ExperiencePic" src="/Images/OIT2.png" alt="CST116 Grader" />
+                        <img class="ExperiencePic" src="Images/OIT2.png" alt="CST116 Grader" />
                     </div>
                     <div class="InnerExperienceText">
                         <p class="ExperienceTitle">CST 116, C++ Programming I Grader and TA</p>
@@ -110,7 +127,7 @@
                 </div>
                 <div class="ExperienceBox">
                     <div class="VerticalCenterFrame">
-                        <img class="ExperiencePic" src="/Images/OIT2.png" alt="CST136 Grader" />
+                        <img class="ExperiencePic" src="Images/OIT2.png" alt="CST136 Grader" />
                     </div>
                     <div class="InnerExperienceText">
                         <p class="ExperienceTitle">CST 136, OOP Programming with C++ TA</p>
@@ -120,7 +137,7 @@
                 </div>
                 <div class="ExperienceBox">
                     <div class="VerticalCenterFrame">
-                        <img class="ExperiencePic" src="/Images/OIT2.png" alt="CST240 Grader" />
+                        <img class="ExperiencePic" src="Images/OIT2.png" alt="CST240 Grader" />
                     </div>
                     <div class="InnerExperienceText">
                         <p class="ExperienceTitle">CST 240, Unix TA</p>
@@ -128,7 +145,7 @@
                         <p>January 2018 - April 2018</p>
                     </div>
                 </div>
-                <!--<div class="ExperienceBox"></div>--!>
+                <!--<div class="ExperienceBox"></div>-->
             </div>
 
             <!--Projects-->
@@ -145,7 +162,7 @@
                 <h1>Education</h1>
                 <div class="EducationBox">
                     <div>
-                        <img id="OITEducationPic" src="/Images/OIT2.png" alt="Oregon Tech" />
+                        <img id="OITEducationPic" src="Images/OIT2.png" alt="Oregon Tech" />
                     </div>
                     <div class="InnerEducationText">
                         <p>Oregon Insitute of Technology - Klamath Falls, OR</p>
@@ -156,7 +173,7 @@
 
                 <div class="EducationBox">
                     <div>
-                        <img id="EPEducationPic" src="/Images/EP.png" alt="Eagle Point High" />
+                        <img id="EPEducationPic" src="Images/EP.png" alt="Eagle Point High" />
                     </div>
                     <div class="InnerEducationText">
                         <p>Eagle Point High School - Eagle Point, OR</p>

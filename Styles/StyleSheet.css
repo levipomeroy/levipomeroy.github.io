@@ -63,6 +63,52 @@ h1 {
                 color: #343434;
             }
 
+.dropdown {
+    /*padding-right: 145px;*/
+    position: relative;
+    display: inline-block;
+    /*float: right;*/
+}
+
+.ThreeDots {
+    margin-top: 0px;
+    padding: .2em 1em;
+    /*width:12px;*/
+    height: auto;
+}
+
+.dropdown:hover .DropDownContent{
+    display: block;
+}
+
+
+.DropDownContent {
+    padding: 10px;
+    background-color: #909090;
+    width: 150px;
+    text-align: left;
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+
+#ResumeDownload{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ToggleTheme {
+    background-color: #909090;
+    padding: .2em 1em;
+    color: white;
+    font-size: 110%;
+    border: none;
+}
+#ToggleTheme:hover {
+    background-color: white;
+    color: #343434;
+}
+
 /*****************************************/
 /*Profile*/
 #SideBar {
