@@ -25,7 +25,7 @@
                             <!--<p>Resume download</p>-->
                             <a id="ResumeDownload" href="/Documents/Resume.docx">Resume</a> 
                             <!--<button class="ButtonInDrop">Toggle Theme</button>-->
-                            <button id="ToggleTheme">Toggle Theme</button>
+                            <button id="ToggleTheme" onclick="myFunction()">Toggle Theme</button>
                             <p>Etc.</p>
                         </div>
                     </div>
@@ -245,3 +245,8 @@
     </form>
 </body>
 </html>
+
+function myFunction() {
+        document.getElementById("SideBar").style.backgroundColor = "red";
+    
+    }
