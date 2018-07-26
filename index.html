@@ -250,5 +250,9 @@
 <script>
 function myFunction() {
         document.getElementById("SideBar").style.backgroundColor = "red";
+		var cols = document.getElementsByClassName('SkillBox');
+        for (i = 0; i < cols.length; i++) {
+            cols[i].style.backgroundColor = "white";
+        }
     }
 </script>
